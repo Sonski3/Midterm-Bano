@@ -386,6 +386,82 @@ This is the “classic” netcat, written by Hobbit. It lacks many features foun
   -Weevely is a stealth PHP web shell that simulate telnet-like connection. It is an essential tool for web application post exploitation, and can be used as stealth backdoor or as a web shell to manage legit web accounts, even free hosted ones.
   - [Watch Video Tutorial](https://www.youtube.com/watch?v=d54VN6oP9Y8)
 
+ ## Forensics
+
+- **Autopsy**
+  - The Autopsy Forensic Browser is a graphical interface to the command line digital forensic analysis tools in The Sleuth Kit. Together, The Sleuth Kit and Autopsy provide many of the same features as commercial digital forensics tools for the analysis of Windows and UNIX file systems (NTFS, FAT, FFS, EXT2FS, and EXT3FS).
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=9AyiRITI9HI)
+ 
+- **Binwalk**
+  - Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images. Binwalk uses the libmagic library, so it is compatible with magic signatures created for the Unix file utility.
+
+Binwalk also includes a custom magic signature file which contains improved signatures for files that are commonly found in firmware images such as compressed/archived files, firmware headers, Linux kernels, bootloaders, filesystems, etc.
+
+This package is an empty package, because the binary tool is already provided with the library, dependency of this package.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=1eTrFS5_ETI)
+
+- **Bulk-Extractor**
+  - bulk_extractor is a C++ program that scans a disk image, a file, or a directory of files and extracts useful information without parsing the file system or file system structures. The results are stored in feature files that can be easily inspected, parsed, or processed with automated tools. bulk_extractor also creates histograms of features that it finds, as features that are more common tend to be more important.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=6EARKVGkl8k)
+ 
+- **Hashdeep**
+  - hashdeep is a set of tools to compute MD5, SHA1, SHA256, tiger and whirlpool hashsums of arbitrary number of files recursively.
+
+The main hashdeep features are:
+
+It can compare those hashsums with a list of known hashes;
+The tools can display those that match the list or those that does not match;
+It can display a time estimation when processing large files.
+It can do piecewise hashing (hash input files in arbitrary sized blocks).
+This package is useful in forensics investigations.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=IsA-ZLFqEfw)
+
+## Reporting Tools
+
+- **Cherrytree**
+  - CherryTree is a hierarchical note taking application, featuring rich text, syntax highlighting, images handling, hyperlinks, import/export with support for multiple formats, support for multiple languages, and more.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=vlmlb2kqbfo)
+
+- **Cutycapt**
+  - CutyCapt is a small cross-platform command-line utility to capture WebKit’s rendering of a web page into a variety of vector and bitmap formats, including SVG, PDF, PS, PNG, JPEG, TIFF, GIF, and BMP.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=AHioY5982z0)
+
+- **Python-Faraday**
+  - Faraday introduces a new concept (IPE) Integrated Penetration-Test Environment a multiuser Penetration test IDE. Designed for distribution, indexation and analysis of the generated data during the process of a security audit.
+
+The main purpose of Faraday is to re-use the available tools in the community to take advantage of them in a multiuser way.
+
+This package no longer contains the GTK client like the upstream repo.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=QJUYEmhOUbA)
+ 
+  - **MALTEGO**
+  - Maltego is an open source intelligence and forensics application. It offers timely mining and gathering of information as well as the representation of this information in an easy-to-understand format. This package replaces previous packages matlegoce and casefile.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=kmOIhvsklv8)
+
+- **Pipal**
+  - All this tool does is to give you the stats and the information to help you analyse the passwords. The real work is done by you in interpreting the results.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=aU90UD0VAAM)
+
+- **Recordmydesktop**
+  - The application produces an ogg-encapsulated theora-vorbis file. recordMyDesktop tries to be as unobstrusive as possible by proccessing only regions of the screen that have changed
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=AhU6NPEUbnc)
+
+## Social Engineering Tools
+
+- **MALTEGO**
+  - Maltego is an open source intelligence and forensics application. It offers timely mining and gathering of information as well as the representation of this information in an easy-to-understand format. This package replaces previous packages matlegoce and casefile.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=kmOIhvsklv8)
+ 
+  **Msfpc**
+ - A quick way to generate various “basic” Meterpreter payloads using msfvenom which is part of the Metasploit framework
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=D_XuiU3T-GI&t=1s)
+
+  **SET**
+ - The Social-Engineer Toolkit (SET) is an open-source Python-driven tool aimed at penetration testing around Social-Engineering.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=FE-FN_QUPWs)
+
+
+
 
     
  
