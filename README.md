@@ -184,6 +184,210 @@ This package contains the debconf files for setuid capture binaries.
 This tool is customizable to be automated with only a few arguments and can be trusted to run without supervision.
   - [Watch Video Tutorial](https://www.youtube.com/watch?v=qpnpI_mF3Aw)
 
+ ## Reverse Engineering
+
+- **Nasmshell**
+  - Netwide Assembler. NASM will currently output flat-form binary files, a.out, COFF and ELF Unix object files, and Microsoft 16-bit DOS and Win32 object files.
+
+Also included is NDISASM, a prototype x86 binary-file disassembler which uses the same instruction table as NASM.
+
+NASM is released under the GNU Lesser General Public License (LGPL).
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=L2RWTUDLBS0)
+
+- **Clang**
+  -The Clang tool is a front end compiler that is used to compile programming languages such as C++, C, Objective C++ and Objective C into machine code. Clang is also used as a compiler for frameworks like OpenMP, OpenCL, RenderScript, CUDA and HIP.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=aTQ4dsMNdVg)
+
+- **Clang++**
+  -The Clang tool is a front end compiler that is used to compile programming languages such as C++, C, Objective C++ and Objective C into machine code. Clang is also used as a compiler for frameworks like OpenMP, OpenCL, RenderScript, CUDA and HIP.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=1EgxFqnkwS4)
+ 
+- **Radare2**
+  -Radare2 is an open-source framework that can perform disassembly, debugging, analysis, comparing data and manipulation of binary files. This framework works on Windows, Linux and many other platforms and architectures.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=oW8Ey5STrPI&list=PLg_QXA4bGHpvsW-qeoi3_yhiZg8zBzNwQ)
+ 
+ ## Exploitation Tools
+
+- **Crackmapexec**
+  - This package is a swiss army knife for pentesting Windows/Active Directory environments.
+
+From enumerating logged on users and spidering SMB shares to executing psexec style attacks, auto-injecting Mimikatz/Shellcode/DLL’s into memory using Powershell, dumping the NTDS.dit and more.
+
+The biggest improvements over the above tools are:
+
+Pure Python script, no external tools required
+Fully concurrent threading
+Uses ONLY native WinAPI calls for discovering sessions, users, dumping SAM hashes etc…
+Opsec safe (no binaries are uploaded to dump clear-text credentials, inject shellcode etc…)
+Additionally, a database is used to store used/dumped credentals. It also automatically correlates Admin credentials to hosts and vice-versa allowing you to easily keep track of credential sets and gain additional situational awareness in large environments.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=wNlW8lTbDJs)
+ 
+- **Metasploit-Framework**
+  - Metasploit Framework is one of several hundred prepackaged tools on the Kali Linux Operating System. Metasploit is used to discover and exploit known vulnerabilities using a modular framework.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=Yb0nQF-DTWg)
+ 
+- **msf payload creator**
+  - MSFPC stands for MSFvenom Payload Creator. It is a graphical user interface (GUI) to generate payloads using the advanced MSFvenom tool in Kali Linux. MSFvenom is very powerful but requires manually typing long commands for payload creation.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=D_XuiU3T-GI)
+  -  
+- **SearchSploit**
+  - SearchSploit is a command-line tool that allows us to search and browse all the exploits available at exploitdb .
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=nx3Uz9zNrWQ)
+ 
+  **Set**
+  - The Social-Engineer Toolkit (SET) is an open-source Python-driven tool aimed at penetration testing around Social-Engineering.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=NekjERW5PsM)
+
+  - **Sqlmap**
+  - Sqlmap goal is to detect and take advantage of SQL injection vulnerabilities in web applications. Once it detects one or more SQL injections on the target host, the user can choose among a variety of options to perform an extensive back-end database management system fingerprint, retrieve DBMS session user and database, enumerate users, password hashes, privileges, databases, dump entire or user’s specific DBMS tables/columns, run his own SQL statement, read specific files on the file system and more.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=o3zUnihOHcM)
+ 
+## Sniffing and Spoofing
+
+- **Ettercap**
+  - Ettercap supports active and passive dissection of many protocols (even encrypted ones) and includes many feature for network and host analysis.
+
+Data injection in an established connection and filtering (substitute or drop a packet) on the fly is also possible, keeping the connection synchronized.
+
+Many sniffing modes are implemented, for a powerful and complete sniffing suite. It is possible to sniff in four modes: IP Based, MAC Based, ARP Based (full-duplex) and PublicARP Based (half-duplex).
+
+Ettercap also has the ability to detect a switched LAN, and to use OS fingerprints (active or passive) to find the geometry of the LAN.
+
+This package contains the Common support files, configuration files, plugins, and documentation. You must also install either ettercap-graphical or ettercap-text-only for the actual GUI-enabled or text-only ettercap executable, respectively.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=LEPEk5pFffw)
+
+- **Macchanger**
+  - GNU MAC Changer is an utility that makes the maniputation of MAC addresses of network interfaces easier. MAC addresses are unique identifiers on networks, they only need to be unique, they can be changed on most network hardware. MAC addresses have started to be abused by unscrupulous marketing firms, government agencies, and others to provide an easy way to track a computer across multiple networks. By changing the MAC address regularly, this kind of tracking can be thwarted, or at least made a lot more difficult.
+
+Features:
+
+set specific MAC address of a network interface
+set the MAC randomly
+set a MAC of another vendor
+set another MAC of the same vendor
+set a MAC of the same kind (eg: wireless card)
+display a vendor MAC list (today, 6200 items) to choose from
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=bshXz5r-CQA)
+ 
+- **Minicom**
+  - Minicom is a clone of the MS-DOS “Telix” communication program. It emulates ANSI and VT102 terminals, has a dialing directory and auto zmodem download.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=IB50PJaROSc)
+
+- **Mitmproxy**
+  - mitmproxy is an interactive man-in-the-middle proxy for HTTP and HTTPS. It provides a console interface that allows traffic flows to be inspected and edited on the fly.
+
+Also shipped is mitmdump, the command-line version of mitmproxy, with the same functionality but without the frills. Think tcpdump for HTTP.
+
+Features:
+
+intercept and modify HTTP and HTTPS requests and responses and modify them on the fly
+save HTTP conversations for later replay and analysis
+replay the client-side of an HTTP conversation
+reverse proxy mode to forward traffic to a specified server
+transparent proxy mode on OSX and Linux
+make scripted changes to HTTP traffic using Python
+SSL/TLS certificates for interception are generated on the fly
+…
+This package contains the python-pathod module (previously provided by other source package). The python-netlib module was also included but it has been dropped by upstream in version 1.0.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=ervVOeBHIok)
+
+- **Netsniff-Ng**
+  - netsniff-ng is a high performance Linux network sniffer for packet inspection. It can be used for protocol analysis, reverse engineering or network debugging. The gain of performance is reached by ‘zero-copy’ mechanisms, so that the kernel does not need to copy packets from kernelspace to userspace.
+
+netsniff-ng toolkit currently consists of the following utilities:
+
+netsniff-ng: a zero-copy packet analyzer, pcap capturing/replaying tool
+trafgen: a multithreaded low-level zero-copy network packet generator
+mausezahn: high-level packet generator for appliances with Cisco-CLI
+ifpps: a top-like kernel networking and system statistics tool
+curvetun: a lightweight curve25519-based multiuser IP tunnel
+astraceroute: an autonomous system trace route and DPI testing utility
+flowtop: a top-like netfilter connection tracking tool
+bpfc: a [seccomp-]BPF (Berkeley packet filter) compiler, JIT disassembler
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=arYh1Z3A66k)
+ 
+- **Responder**
+  - This package contains Responder/MultiRelay, an LLMNR, NBT-NS and MDNS poisoner. It will answer to specific NBT-NS (NetBIOS Name Service) queries based on their name suffix (see: http://support.microsoft.com/kb/163409). By default, the tool will only answer to File Server Service request, which is for SMB.
+
+The concept behind this is to target your answers, and be stealthier on the network. This also helps to ensure that you don’t break legitimate NBT-NS behavior. You can set the -r option via command line if you want to answer to the Workstation Service request name suffix.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=qIsUCVvJ-3U)
+ 
+- **Scapy**
+  - Scapy is a powerful interactive packet manipulation tool, packet generator, network scanner, network discovery, packet sniffer, etc. It can for the moment replace hping, 85% of nmap, arpspoof, arp-sk, arping, tcpdump, tethereal, p0f, ….
+
+In scapy you define a set of packets, then it sends them, receives answers, matches requests with answers and returns a list of packet couples (request, answer) and a list of unmatched packets. This has the big advantage over tools like nmap or hping that an answer is not reduced to (open/closed/filtered), but is the whole packet.
+
+This package contains the Python 3 version of the library and scapy executable.
+
+Installed size: 6.45 MB
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=emHt0JvXDUY)
+
+- **Tcpdump**
+  - This program allows you to dump the traffic on a network. tcpdump is able to examine IPv4, ICMPv4, IPv6, ICMPv6, UDP, TCP, SNMP, AFS BGP, RIP, PIM, DVMRP, IGMP, SMB, OSPF, NFS and many other packet types.
+
+It can be used to print out the headers of packets on a network interface, filter packets that match a certain expression. You can use this tool to track down network problems, to detect attacks or to monitor network activities.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=uN6CSiX8fQQ)
+ 
+- **Wireshark**
+  - Wireshark is a network “sniffer” - a tool that captures and analyzes packets off the wire. Wireshark can decode too many protocols to list here.
+
+This package provides the console version of wireshark, named “tshark”.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=2Wi6-cCexXA)
+
+## Post-Exploitation
+
+- **Evil-Winrm**
+  -This package contains the ultimate WinRM shell for hacking/pentesting.
+
+WinRM (Windows Remote Management) is the Microsoft implementation of WS-Management Protocol. A standard SOAP based protocol that allows hardware and operating systems from different vendors to interoperate. Microsoft included it in their Operating Systems in order to make life easier to system administrators.
+
+This program can be used on any Microsoft Windows Servers with this feature enabled (usually at port 5985), of course only if you have credentials and permissions to use it. So it could be used in a post-exploitation hacking/pentesting phase. The purpose of this program is to provide nice and easy-to-use features for hacking. It can be used with legitimate purposes by system administrators as well but the most of its features are focused on hacking/pentesting stuff.
+
+It is using PSRP (Powershell Remoting Protocol) for initializing runspace pools as well as creating and processing pipelines.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=EWJM3tERMXs)
+
+ **Exe2hexbat**
+  -A Python script to convert a Windows PE executable file to a batch file and vice versa.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=EhWeQ7vkIg4)
+ 
+ **Impacket**
+  -Impacket is a collection of Python3 classes focused on providing access to network packets. Impacket allows Python3 developers to craft and decode network packets in simple and consistent manner. It includes support for low-level protocols such as IP, UDP and TCP, as well as higher-level protocols such as NMB and SMB.
+
+Impacket is highly effective when used in conjunction with a packet capture utility or package such as Pcapy. Packets can be constructed from scratch, as well as parsed from raw data. Furthermore, the object oriented API makes it simple to work with deep protocol hierarchies.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=gzTmQvH9YK0)
+
+ **Mimikatz**
+  -Mimikatz uses admin rights on Windows to display passwords of currently logged in users in plaintext.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=XuZ9SyY5GYs)
+ 
+  **Netcat**
+  -A simple Unix utility which reads and writes data across network connections using TCP or UDP protocol. It is designed to be a reliable “back-end” tool that can be used directly or easily driven by other programs and scripts. At the same time it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
+
+This is the “classic” netcat, written by Hobbit. It lacks many features found in netcat-openbsd.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=VF4In6rIPGc)
+
+ **Powershell-Empire**
+  -This package contains a post-exploitation framework that includes a pure-PowerShell2.0 Windows agent, and a pure Python Linux/OS X agent. It is the merge of the previous PowerShell Empire and Python EmPyre projects. The framework offers cryptologically-secure communications and a flexible architecture. On the PowerShell side, Empire implements the ability to run PowerShell agents without needing powershell.exe, rapidly deployable post-exploitation modules ranging from key loggers to Mimikatz, and adaptable communications to evade network detection, all wrapped up in a usability-focused framework.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=52xkWbDMUUM)
+ 
+ **Powersploit**
+  -PowerSploit is a series of Microsoft PowerShell scripts that can be used in post-exploitation scenarios during authorized penetration tests.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=4b5c25x7Esw)
+
+ **Proxychains4**
+  -proxychains4. Proxychains is a UNIX program, that hooks network-related libc functions in dynamically linked programs via a preloaded DLL (dlsym(), LD_PRELOAD) and redirects the connections through SOCKS4a/5 or HTTP proxies.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=jqrd9Ba3VOc)
+ 
+  **starkiller**
+  -Starkiller is the official graphical user interface created to allow multiple penetration testers to connect and control the Empire server.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=6eqrnZzffJ4)
+
+    **Weevely**
+  -Weevely is a stealth PHP web shell that simulate telnet-like connection. It is an essential tool for web application post exploitation, and can be used as stealth backdoor or as a web shell to manage legit web accounts, even free hosted ones.
+  - [Watch Video Tutorial](https://www.youtube.com/watch?v=d54VN6oP9Y8)
+
+
+    
  
  
     
